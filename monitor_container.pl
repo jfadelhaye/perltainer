@@ -79,7 +79,7 @@ while (1) {
     print "Failed to retrieve endpoints\n";
   }
 
-  # Sleep for 5 minutes
+  # Sleep for 30 seconds
   sleep(30);
   $current_time = localtime();
   print("\n --- Next iteration ($current_time) --- \n");
